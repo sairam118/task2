@@ -1,0 +1,15 @@
+[global]
+bs=1k
+size=16G
+iodepth=128
+ioengine=libaio
+direct=1
+runtime=10
+numjobs=2
+group_reporting
+rw=randread
+
+[job1]
+filename=/dev/vg1/lv1
+
+
